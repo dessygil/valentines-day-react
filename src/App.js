@@ -39,6 +39,10 @@ function App() {
     alert("AH look at you, you caught the button. \nLucky button catchers win one free date on February 14th with an eligible bachelor who will be in touch with you to follow up!");
   }
 
+  const clickedYes = () => {
+    alert("Its either you couldn't catch the no button or you really wanted to be my valentines date. Either way an email has been sent to me notifying me what you choose")
+  }
+
   function mouseOver() {
     setx(Math.random() * 100);
     sety(Math.random() * 100);
@@ -81,6 +85,7 @@ function App() {
       <button 
         style={yesStyle}
         type="submit"
+        onClick={clickedYes}
       >
         YES!
       </button> 
