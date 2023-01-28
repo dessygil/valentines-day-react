@@ -74,7 +74,7 @@ function App() {
   return (
     <>
     <p className="pre-valentine">
-      Will you be my valentine
+      Will you be my
     </p>
     <p className="valentine">Valentine</p>
     <form onSubmit={sendEmail} ref={form}>
