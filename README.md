@@ -1,3 +1,18 @@
+# Purpose
+
+I pride myself on putting effort into the small things like this that matter. I created a small site that will be able to ask my partner if she will be my valentine!
+
+# What I learned along the way
+
+This website was built using React and has animations such as a runaway button and hearts that fall from the top. It uses the library EmailJs to alert me when my partner clicks Yes.
+
+# How to run
+
+1. npm install
+2. npm run start
+3. Go to localhost:3000 and enjoy
+4. Dont click yes too many times, I am on the free version and I only have 200 emails
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
